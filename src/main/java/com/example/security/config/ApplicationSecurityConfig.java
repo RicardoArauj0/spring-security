@@ -32,7 +32,11 @@ public class ApplicationSecurityConfig {
             .anyRequest()
             .authenticated()
             .and()
-            .httpBasic();
+            .formLogin()
+            .loginPage("/login").permitAll()
+            .defaultSuccessUrl("/courses", true)
+            .and()
+            .rememberMe(); // default 2 weeks
         return http.build();
     }
 
