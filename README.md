@@ -1,4 +1,6 @@
 # spring-security
 
-Spring security basic projects.
-Check the branches for more detailed content about Spring Security.
+#Basic Auth
+Basic auth needs user and pass in every request.
+The configuration is done on ApplicationSecurityConfig class
+Role and permission based authorization.
