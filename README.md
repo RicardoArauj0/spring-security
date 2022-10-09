@@ -9,5 +9,8 @@ Check the branches for more detailed content about Spring Security.
 <div>JWT -> https://github.com/RicardoArauj0/spring-security/tree/JWT</div>
 
 
+<p>Based on the course from Amigoscode: https://www.youtube.com/watch?v=her_7pa0vrg</p>
+
+
 
 
