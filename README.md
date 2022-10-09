@@ -1,4 +1,4 @@
 # spring-security
 
-#Form Based Authenticated
-Authentication based on a web form.
+#JWT
+Credentials authentication and JWT creation. 
